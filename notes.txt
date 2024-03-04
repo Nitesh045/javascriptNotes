@@ -1,0 +1,73 @@
+q1=>what is Javascripts? Advantages and DisAdvantages of JS ?
+
+javaScript => Javascript is an intrepreted programming and scripting launguage commonly used in web devevelopment
+it also used for provide dynamic behviour on website 
+
+A
+
+Advantages => 
+Compatible with All Browsers:
+=> JavaScript supports all modern browsers and produces consistent results.
+ => It is widely used for creating rich and interactive web experiences.
+
+ Easy to Learn and Use:
+
+
+ Versatility and Popularity:=>
+=> JavaScript is used extensively across the web, from front-end development to back-end (via Node.js).
+=> It plays nicely with other languages and can be used in various applications.
+
+///////////
+
+* ##DisAdvantages=>
+Code Visibility:
+JavaScript code is visible to everyone, as it runs on the client side.
+Anyone can view the JavaScript code, which may be a security concern.
+
+Render Problem =>
+when Javascript run a script and if find any error so stop rendering
+
+
+
+
+<-------------------------Rest Opertor------------------------>
+
+Rest Opertor => The rest Opertor is represent by three dots (...).
+             => Return value in array , when used in a function parameter list 
+             => This allow functions to jandle varing numbers of arugment without explicity defining them
+             => function abc(a, ...rest) {
+                 return rest;
+                  }
+
+                   console.log(abc(10, 1, 2, 3, 4, 5));
+                       // Output: [1, 2, 3, 4, 5]
+
+function restOp(a, ...rest){
+   return rest
+}
+console.log(restOp(5,1,2,3,4,5))
+out=[1,2,3,4,5]
+
+<------------------------Spread Operator-------------------->
+Spread Operator (...):
+                  The spread operator also uses three dots (...).
+                  It works by taking all the items in an array (or other iterable) and spreading them out, essentially unpacking the array so that each item becomes an individual element.
+                 It is like taking a bunch of items from a box and laying them out separately on a table.
+
+
+function abc(a, b, c) {
+    return a + b + c;
+}
+
+console.log(abc(...[1, 2, 3]));
+// Output: 6
+
+let arrSp=[1,2,34,5,6,67];
+let newArrSp=[...arrSp]
+console.log(newArrSp);
+
+out=[ 1, 2, 34, 5, 6, 67 ]
+
+
+
+

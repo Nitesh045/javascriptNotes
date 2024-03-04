@@ -1,0 +1,11 @@
+{
+  "name": "bridgelabzpractice",
+  "version": "1.0.0",
+  "description": "\"Notes of Javascript\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "\"Nitesh yadav\"",
+  "license": "ISC"
+}
